@@ -27,7 +27,7 @@ pipeline {
         }
         stage('pushing the docker image into dockerhub') {
             steps {
-                  sh 'docker push gudipatiuday/backend-lms'
+                  sh 'docker push uday29/backend-lms'
             }
         }
         stage('Remove old docker images') {
