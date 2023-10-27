@@ -8,7 +8,7 @@ pipeline {
 
     DOCKERHUB_CREDENTIALS = credentials('dockeruseruday')
      registry = "uday29/backend-lms"
-        registryCredential = 'dockeruser'
+        registryCredential = 'dockeruseruday'
         dockerImage = ''
     }
 
